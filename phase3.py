@@ -13,10 +13,10 @@ class DatabaseManagerApp:
         self.root.title("Database Manager")
         
         # Database connection parameters
-        self.host = '127.0.0.1'
-        self.user = 'root'
-        self.database = 'Project'
-        self.password = '1436352Hg'
+        self.host = ''
+        self.user = ''
+        self.database = ''
+        self.password = ''
         
         # Connect to the database
         self.connection = mysql.connector.connect(
